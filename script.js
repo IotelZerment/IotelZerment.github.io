@@ -1098,7 +1098,7 @@ __p+='`), V
                         marginRight: "8px",
                         width: "16px"
                     }),
-                    y = e("<img>").attr("src", "LSFMedia logo jpg.png").attr("alt", "Made in Webflow");
+                    y = e("<img>").attr("src", "LSFMedia logo jpg.png").attr("alt", "LSFMedia");
                 return E.append(_, y), E[0]
             }
 
