@@ -1093,7 +1093,7 @@ __p+='`), V
             }
 
             function d() {
-                var E = e('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"),
+                var E = e('<a class="w-webflow-badge"></a>').attr("href", "http://lsfmedia.net"),
                     _ = e("<img>").attr("src", "LSFMedia logo jpg.png").attr("alt", "").css({
                         marginRight: "8px",
                         width: "16px"
