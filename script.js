@@ -1092,6 +1092,16 @@ __p+='`), V
                 e(f).attr("style", E ? "display: none !important;" : "")
             }
 
+            function d() {
+                var E = e('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"),
+                    _ = e("<img>").attr("src", "LSFMedia logo jpg.png").attr("alt", "").css({
+                        marginRight: "8px",
+                        width: "16px"
+                    }),
+                    y = e("<img>").attr("src", "LSFMedia logo jpg.png").attr("alt", "Made in Webflow");
+                return E.append(_, y), E[0]
+            }
+
             function g() {
                 var E = o.children(i),
                     _ = E.length && E.get(0) === f,
